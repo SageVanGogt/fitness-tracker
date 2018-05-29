@@ -1,0 +1,125 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  width: 100vw;
+  font-family: 'Open Sans',
+  sans-serif;
+}
+
+body {
+  background-color: #FFFCF2;
+}
+
+nav {
+  background-color: #7A939F;
+  width: 100%;
+  height: 100px;
+}
+
+h1 {
+  color: #FFFCF2;
+  display: inline-block;
+  width: 400px;
+  text-align: right;
+}
+
+h4 {
+  width: 100px;
+  color: #FFFCF2;
+}
+
+.hambuger {
+  width: 50px;
+  margin-left: 50px;
+  float: left;
+}
+
+.chad {
+  border-radius: 100%;
+  width: 60px;
+  height: 60px;
+  background-image: url('assets/chad.jpg');
+  background-size: cover;
+  background-color: Black;  
+  display: inline-block;
+  float: right;
+  
+}
+
+.yoga {
+  background-image: url('assets/yoga.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 300px;
+}
+
+header {
+  width: 100vw;
+  display: block;
+}
+
+.content {
+  display: flex;
+  height: calc(100vh - 300px)
+}
+
+.goals {
+  width: 25vw;
+}
+
+.calendar {
+  width: 50vw;  
+}
+
+.calendar-img {
+  width: 100%;
+}
+
+.recent-workouts {
+  width: 25vw;
+}
+
+.cal-cont {
+  height: 80%;
+  width: 50vw;
+  border-right: 1px solid black;
+}
+
+.rec-cont {
+  padding-top: 50px;
+  padding-left: 20px;
+  display: flex;
+  height: 80%;
+  width: 25vw;
+  border-right: 1px solid black;  
+}
+
+ul {
+  list-style-type: none;
+}
+
+.goals-cont {
+  padding-top: 50px;
+  padding-left: 20px;
+  height: 80%;
+  width: 25vw;
+}
+
+.title-container {
+  width: 25vw;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 80px;
+  background-color: #FE5F55;
+}
+
+.title-mid-container {
+  width: 50vw;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 80px;
+  background-color: #7A939F;
+}
